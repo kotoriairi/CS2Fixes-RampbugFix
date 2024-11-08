@@ -347,7 +347,7 @@ void TryPlayerMovePre(CCSPlayer_MovementServices *ms, Vector *pFirstDest, trace_
 			}
 			else
 			{ // go along the crease
-				if (numPlanes != 2)
+				if (numPlanes != 2  || (pm.m_vHitNormal.z >= 0.7 && velocity.Length2D() < 1.0f))
 				{
 					VectorCopy(vec3_origin, velocity);
 					break;
