@@ -157,6 +157,16 @@ public:
 			OnLateLoad();
 	}
 
+        ~CPlayerManager()
+    	{
+        for (auto player : m_vecPlayers)
+        	{
+          	  delete player;
+        	}
+    	}
+
+
+
 	bool OnClientConnected(CPlayerSlot slot, uint64 xuid);
 	void OnLateLoad();
 	CPlayerSlot GetSlotFromUserId(uint16 userid);
