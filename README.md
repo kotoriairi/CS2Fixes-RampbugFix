@@ -6,7 +6,7 @@ Fix taken from [CS2KZ's rampbug fix](https://gist.github.com/zer0k-z/2eb0c230c8f
 ## Installation
 
 - Install [Metamod](https://cs2.poggu.me/metamod/installation/)
-- Build the plugin using the [compilation instructions below](https://github.com/Interesting-exe/CS2Fixes-RampbugFix/tree/main?tab=readme-ov-file#instructions)
+- Build the plugin using the [compilation instructions below](https://github.com/Interesting-exe/CS2Fixes-RampbugFix/tree/main?tab=readme-ov-file#instructions) or download the [latest release](https://github.com/Interesting-exe/CS2Fixes-RampbugFix/releases/latest)
 - Extract the package contents into `game/csgo` on your server
 
 ## Compilation
