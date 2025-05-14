@@ -143,7 +143,7 @@
 			"CCSPlayer_WeaponServices_CanUse"
 			{
 				"library"		"server"
-				"windows"		"\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA"
+				"windows"		"\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xF2"
 				"linux"			"\x55\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x49\x89\xFD\x41\x54\x49\x89\xF4"
 			}
 			"CreateEntityByName"
@@ -236,8 +236,8 @@
 			}
 			"CBaseEntity::Use"
 			{
-				"windows"    "133"
-				"linux"      "132"
+				"windows"    "140"
+				"linux"      "139"
 			}
 			"Teleport"
 			{
@@ -256,8 +256,8 @@
 			}
 			"IsEntityController"
 			{
-				"windows"		"161"
-				"linux"			"160"
+				"windows"		"162"
+				"linux"			"161"
 			}
 			// String: "%s<%i><%s><%s>" ChangeTeam() CTMDBG..."
 			"CCSPlayerController_ChangeTeam"
@@ -270,8 +270,8 @@
 			// 2872 (359 * 8) is the offset
 			"CBasePlayerPawn_CommitSuicide"
 			{
-				"windows"		"377"
-				"linux"			"377"
+				"windows"		"380"
+				"linux"			"380"
 			}
 			// In the function with "[%03d] Found: %s, firing\n", you'll find a call into a pointer offset just a bit higher, that's the offset * 8
 			"CGameRules_FindPickerEntity"
@@ -281,8 +281,8 @@
 			}
 			"PassesTriggerFilters"
 			{
-				"windows"		"260"
-				"linux"			"261"
+				"windows"		"263"
+				"linux"			"264"
 			}
 			"CCSPlayerController_Respawn"
 			{
@@ -291,8 +291,8 @@
 			}
 			"GetHammerUniqueId"
 			{
-				"windows"		"102"
-				"linux"			"101"
+				"windows"		"109"
+				"linux"			"108"
 			}
 			"CheckTransmitPlayerSlot"
 			{
